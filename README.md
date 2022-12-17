@@ -30,3 +30,7 @@ After this app will run on 5000 port on your localhost. The endpoint for taking 
 ![Sample image used for testing](42.jpg)
 ### Testing app using postman
 ![Screenshot](postman.png)
+
+## Further modifications
+- Right now docker container is using torch model, this can be converted into onnx model to improve throughput and also reduce docker image size. 
+- Container is running on localhost, this can be deployed on AWS/AZURE so that it can be public API.
